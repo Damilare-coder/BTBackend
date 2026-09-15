@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
     // const name = "Damilare";
     // let age = 22;
     // let prog = "JavaScript"
@@ -13,6 +14,11 @@
     
 
 // In intro.js, create a program that accepts:
+=======
+    const name = "Damilare";
+    let age = 22;
+    let prog = "JavaScript"
+>>>>>>> 5d925e1c831bf2d79b4e66c6233eb273af7e5ea6
 
 // node intro.js Damilare 25
 

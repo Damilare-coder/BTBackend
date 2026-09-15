@@ -12,12 +12,25 @@
   },
   "license": "ISC",
   "author": "",
+<<<<<<< HEAD
   "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+=======
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+
+  "dependencies": {
+    "dotenv": "^17.4.2",
+>>>>>>> 5d925e1c831bf2d79b4e66c6233eb273af7e5ea6
     "express": "^5.2.1"
   }
 }
