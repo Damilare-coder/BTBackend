@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const express = require('express')
 const app = express()
 const port = 3000
@@ -37,6 +36,7 @@ app.get('/user/:id', (req, res) =>{
 app.listen(port, () => {
   console.log(`Example app is listening on port ${port}`)
 })
+})
 
 // app.use((req, res, next) => { //logs every request
 //   console.log((`${req.method} ${req.url} - ${new Date()} `));
@@ -62,4 +62,4 @@ app.listen(port, () => {
 //   console.log(search);
 //   res.send(search)
 // })
->>>>>>> 5d925e1c831bf2d79b4e66c6233eb273af7e5ea6
+
