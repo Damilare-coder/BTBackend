@@ -5,7 +5,7 @@ fs.appendFileSync("user.txt","Role:Backend Developer\n")
 
 
 // console.log(readUser);
-fs.appendFileSync("user.txt", "Learning NodeJS\n")
+fs.appendFileSync("user.txt", "Status: Learning NodeJS\n")
 
 const readUser = fs.readFileSync("user.txt", "utf8")
 

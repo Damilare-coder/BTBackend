@@ -1,0 +1,2 @@
+Hey! I'm just practising what I learnt yesterday
+And I intend continuing today. This is appending to the content of this file using append
