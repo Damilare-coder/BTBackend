@@ -13,6 +13,7 @@ console.log("Directory:",path.dirname(filePath));
 // Gets the extension name 
 console.log("Extension:",path.extname(filePath));
 
+// combines the pieces, and makes a relative path.
 const joinedPath = path.join(
     "BTBackend_proj",
     "data",
@@ -20,12 +21,15 @@ const joinedPath = path.join(
 
 console.log(joinedPath);
 
+
+// gets the absolute path
 const filepath = path.resolve(
     "BTBackend_proj",
     "data",
     "users.json")
 
 console.log(filepath);
+
 
 //Gets information about the path
 const parsed = path.parse(filepath);
