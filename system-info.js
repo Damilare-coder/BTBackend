@@ -24,4 +24,4 @@ console.log("Free memory:",
     "GB"
 )
 
-console.log(os.uptime());
+console.log("Uptime:", os.uptime(),"seconds");
