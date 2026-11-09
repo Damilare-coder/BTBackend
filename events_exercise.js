@@ -1,3 +1,4 @@
+
 import { EventEmitter } from "events";
 
 // Create an event emitter
@@ -11,3 +12,10 @@ myEmitter.on("greeting", ()=>{
 
 //Trigger the event
 myEmitter.emit("greeting")
+
+
+
+
+
+
+
